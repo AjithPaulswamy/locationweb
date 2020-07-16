@@ -12,7 +12,7 @@
 <body>
 
 <h2>Locations :</h2>
-<table bgcolor="#0080ff">
+<table>
 <!-- Table Heading -->
 <tr>
 <th>ID</th>
@@ -27,10 +27,14 @@
 <td>${location.code}</td>
 <td>${location.name}</td>
 <td>${location.type}</td>
+<td><a href="editLoc?id=${location.id}">edit</a></td>
+<td><a href="deleteLoc?id=${location.id}">delete</a></td>
 </tr>
 </c:forEach>
 
 </table>
+
+<a href="showCreate">Add Record</a>
 
 </body>
 </html>

@@ -23,7 +23,7 @@ Type : Urban <input type="radio" name="type" value="URBAN"/>
 <!-- Spring Expression Language -->
 ${msg}
 
-<a href="displayLoc">View All</a>
+<br><a href="displayLoc">View All</a>
 
 </body>
 </html>
