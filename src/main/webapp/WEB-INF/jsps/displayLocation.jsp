@@ -34,7 +34,8 @@
 
 </table>
 
-<a href="showCreate">Add Record</a>
+<a href="showCreate">Add Record</a><br>
+<a href="showChart">View Location Chart</a>
 
 </body>
 </html>
